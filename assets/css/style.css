@@ -1,0 +1,115 @@
+body {
+  background: #fafafa; }
+
+.container {
+  margin-top: 10px; }
+
+/*COMIENZA BARRA*/
+#header {
+  height: 80px;
+  background: #b0b396;
+  box-shadow: 0px 0px 30px #7f89a1;
+  margin-top: 0px; }
+  #header .container {
+    margin-top: 0px; }
+    #header .container nav {
+      font-size: 20px; }
+
+/*COMIENZA IMAGEN PRINCIPAL*/
+.container .imgPrincipal {
+  margin-top: 70px;
+  margin-bottom: 50px; }
+
+/*COMIENZA SECTION NOSOTROS*/
+section {
+  font-family: 'Montserrat', sans-serif; }
+  section .container .nosotros {
+    padding: 30px 15px 30px 15px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+    section .container .nosotros p {
+      font-size: 18px;
+      text-align: left; }
+
+/*COMIENZA SECTION PRODUCTOS*/
+#productos {
+  background: #b0b396; }
+  #productos .container {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    #productos .container h3 {
+      text-align: center; }
+
+/*COMMIENZA FORMULARIO*/
+#contact .container {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  #contact .container .form-check {
+    margin-bottom: 1rem; }
+  #contact .container h3 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+.form-group input {
+  height: 35px;
+  transition: all 0.75s; }
+
+.form-group input:focus {
+  height: 50px;
+  font-size: 22px; }
+
+.form-group textarea {
+  transition: all 0.75s; }
+
+.form-group textarea:focus {
+  font-size: 22px; }
+
+/*COMIENZA FOOTER*/
+#footer {
+  background: #b0b396; }
+  #footer .container {
+    margin-top: 15px;
+    padding: 15px 0px 15px 0px;
+    font-family: 'Montserrat', sans-serif; }
+    #footer .container .footerContact {
+      padding: 55px 0px 15px 0px; }
+
+/*COMIENZA SECCION NOSOTROS html*/
+#nosotros .container {
+  margin-top: 90px; }
+  #nosotros .container .concepto {
+    padding-top: 80px; }
+    #nosotros .container .concepto h3 {
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+
+/*COMIENZA SECCION VINOS*/
+#vinos {
+  padding-top: 75px;
+  font-family: 'Montserrat', sans-serif; }
+  #vinos .container h3 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  #vinos .container .frases {
+    padding: 70px 0px 30px 0px; }
+    #vinos .container .frases p {
+      font-size: 18px; }
+  #vinos .container .carousel-caption {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    right: 30%;
+    left: 30%; }
+    #vinos .container .carousel-caption h5 {
+      background: #e6e9ed;
+      border-radius: 10px;
+      color: black;
+      margin-top: 50px; }
+    #vinos .container .carousel-caption p {
+      background: #e6e9ed;
+      border-radius: 10px;
+      color: black;
+      font-size: 18px; }

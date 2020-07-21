@@ -1,0 +1,148 @@
+$fondo: #fafafa;
+$beige: #b0b396;
+$fondoTexto: #e6e9ed;
+
+
+
+body {
+	background: #fafafa;
+}
+.container {
+	margin-top: 10px;
+}
+/*COMIENZA BARRA*/
+#header {
+	height: 80px;
+    background: $beige;
+    box-shadow: 0px 0px 30px rgb(127,137,161);
+    margin-top: 0px;
+    .container {
+    	margin-top: 0px;  
+	nav {
+		font-size: 20px;
+		}
+	}
+}
+/*COMIENZA IMAGEN PRINCIPAL*/
+.container {
+	.imgPrincipal {
+		margin-top: 70px;
+		margin-bottom: 50px;
+	}
+}
+/*COMIENZA SECTION NOSOTROS*/
+section {
+	font-family: 'Montserrat', sans-serif;
+	.container {
+		.nosotros {
+		padding: 30px 15px 30px 15px;
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		p {
+			font-size: 18px;
+			text-align: left;
+			}
+		}
+	}
+}
+/*COMIENZA SECTION PRODUCTOS*/
+#productos {
+	background: $beige;
+	.container {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		h3 { text-align: center;}
+
+	}
+}
+/*COMMIENZA FORMULARIO*/
+#contact {
+	.container {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		.form-check {
+			margin-bottom: 1rem;
+		}
+		h3 { 
+			text-align: center;
+			padding-top: 15px;
+			padding-bottom: 15px;
+		 }
+
+	}
+}
+.form-group {
+	input {
+		height: 35px;
+		transition: all 0.75s;
+		}
+	input:focus {
+		height: 50px;
+		font-size: 22px;
+	}
+	textarea {
+		transition: all 0.75s;
+	}
+	textarea:focus {
+		font-size: 22px;
+	}	
+}
+/*COMIENZA FOOTER*/
+#footer {
+	background: $beige;
+	.container {
+		margin-top: 15px;
+		padding: 15px 0px 15px 0px;
+		font-family: 'Montserrat', sans-serif;
+			.footerContact {
+				padding: 55px 0px 15px 0px;
+			}
+	}
+}
+/*COMIENZA SECCION NOSOTROS html*/
+#nosotros {
+	.container {
+		margin-top: 90px;
+		.concepto {
+			padding-top: 80px;
+		h3 {
+			text-align: center; 
+			padding-top: 15px;
+			padding-bottom: 15px;
+			}
+		}
+	}
+}
+/*COMIENZA SECCION VINOS*/
+#vinos {
+	padding-top: 75px;
+	font-family: 'Montserrat', sans-serif;
+	.container {
+		h3 { text-align: center; 
+			padding-top: 15px;
+			padding-bottom: 15px;
+			}
+		.frases {
+		padding: 70px 0px 30px 0px;
+		p { font-size: 18px; }
+	}
+	.carousel-caption {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		right: 30%;
+		left: 30%;
+		h5 { 
+			background: $fondoTexto;
+			border-radius: 10px;
+			color: black;
+			margin-top: 50px;}
+		p { 
+			background: $fondoTexto;
+			border-radius: 10px;
+			color: black;
+			font-size: 18px;}
+
+		}
+	}
+}
